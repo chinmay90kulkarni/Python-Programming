@@ -1,0 +1,8 @@
+#No 1
+a = raw_input("Enter string to check :");
+print("Palindrome" if a==a[::-1] else "Not Palindrom!");
+
+
+#No 2
+print ((int(raw_input("First :"))) + (int(raw_input("Second! :"))));
+

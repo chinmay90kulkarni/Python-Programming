@@ -1,0 +1,37 @@
+#Assignment 2.1
+unsortedList = ['Aaaa', 'bb', 'cccccccc', 'zzzzzzzzzzzz'];
+temp=[]; dict={};
+for li in unsortedList:
+     temp.insert(0,len(li));
+     dict[len(li)] = li;
+     
+temp.sort();
+print temp;
+print dict;
+
+i=0;
+for li in unsortedList:
+     print dict.get(temp[i]);
+     i+=1;
+
+
+
+#Assignment 2.2
+emp ={'1a':30000,'2a':40000};
+for i in emp.keys():
+     val = emp.pop(i);
+     val +=5000;
+     emp[i] = val;
+
+print emp;
+
+
+#Assignment 2.3
+num = [10,45,34,88];
+temp = 0;
+for i in num:
+     temp += i;
+
+print temp;
+     
+

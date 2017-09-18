@@ -1,0 +1,27 @@
+"""
+#Assignment 3.1
+a = int(input("Enter :"));
+b = int(input("Enter :"));
+
+
+def myFun(x,y):
+     return (x+y);
+
+print "Addition is :",myFun(a,b);
+
+"""
+
+#Assignment 3.2
+
+emp = {"a1":12000,"b1":12333};
+temp_emp= {};
+while True:
+     a = raw_input("Name and Salary:");
+     if(len(a)!=0):
+          temp = a.split(' ');
+          temp_emp[temp[0]] = temp[1];
+          emp.update(temp_emp);
+     else:
+          break;
+print emp;
+     
