@@ -1,5 +1,6 @@
 import subprocess,re;
 
+
 temp = subprocess.call("bx target -o chinkul3@in.ibm.com -s dev");
 
 result  = subprocess.check_output("bx app list");
@@ -24,7 +25,6 @@ for line in result.splitlines():
         
 for record in records:
     print(record);
-    print(records[record]); 
 
 
 
