@@ -19,14 +19,8 @@ def checkOwner(line):
                 records[name]=[line];
             break;          
 
-
 for line in result.splitlines():
    checkOwner(line.lower());
         
 for record in records:
-    print(record);
-
-
-
-
-
+    print(records[record])
