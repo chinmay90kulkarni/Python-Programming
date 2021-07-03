@@ -1,4 +1,6 @@
 #Local and Global variables 
+# Edited by Soham
+
 
 def func1():
     global a
